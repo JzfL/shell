@@ -12,9 +12,11 @@ mkdir dir1 dir2 dir3 dir4 dir5
 # 2. How would you verify the creation of all 5 directories?
 ls
 # 3. In each directory, how would you create 5 .txt files and write "I love data" into each within the directories?
-touch dir1 dir2 dir3 dir4 dir5/I love data.txt 
-or
-echo "I love data" >> *.txt
+touch I love data.txt dir1
+cp I love data.txt dir2
+cp I love data.txt dir3
+cp I love data.txt dir4
+cp I love data.txt dir5
 # 4. How would you verify the presence of all 5 files?
 ls *.{txt}
 # 5. How would you append to one of the existing files " and machine learning!"?
