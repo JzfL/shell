@@ -12,11 +12,11 @@ mkdir dir1 dir2 dir3 dir4 dir5
 # 2. How would you verify the creation of all 5 directories?
 ls
 # 3. In each directory, how would you create 5 .txt files and write "I love data" into each within the directories?
-
+touch dir1 dir2 dir3 dir4 dir5/I love data.txt 
 # 4. How would you verify the presence of all 5 files?
-
+ls dir*
 # 5. How would you append to one of the existing files " and machine learning!"?
-
+mv 
 # 6. How would you verify that the text was indeed appended to the existing file?
 
 # 7. How would you delete all files except for the one with the appended text?
